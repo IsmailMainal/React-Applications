@@ -1,0 +1,17 @@
+create database shop;
+USE shop;
+
+CREATE TABLE items (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(100),
+  price DECIMAL(10,2),
+  quantity INT
+);
+
+CREATE TABLE cart (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  item_id INT,
+  name VARCHAR(100),
+  price DECIMAL(10,2),
+  quantity INT
+);
