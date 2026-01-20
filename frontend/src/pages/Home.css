@@ -1,0 +1,111 @@
+/* Page background */
+body {
+  background: linear-gradient(120deg, #f6f9fc, #eef2f7);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Table container */
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px auto;
+  font-size: 16px;
+  min-width: 800px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  background-color: #ffffff;
+}
+
+/* Table header */
+.styled-table thead tr {
+  background: linear-gradient(90deg, #4f46e5, #6366f1);
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Table cells */
+.styled-table th,
+.styled-table td {
+  padding: 14px 18px;
+}
+
+/* Table body rows */
+.styled-table tbody tr {
+  border-bottom: 1px solid #e5e7eb;
+  text-align: center;
+}
+
+/* Zebra stripes */
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f9fafb;
+}
+
+/* Hover effect */
+.styled-table tbody tr:hover {
+  background-color: #eef2ff;
+  transition: background 0.3s ease;
+}
+
+/* Last row border */
+.styled-table tbody tr:last-of-type {
+  border-bottom: 3px solid #4f46e5;
+}
+
+/* Buttons common */
+.btn {
+  padding: 7px 14px;
+  margin: 0 4px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+/* Edit button */
+.btn-edit {
+  background-color: #10b981;
+  color: #ffffff;
+}
+
+.btn-edit:hover {
+  background-color: #059669;
+}
+
+/* Delete button */
+.btn-delete {
+  background-color: #ef4444;
+  color: #ffffff;
+}
+
+.btn-delete:hover {
+  background-color: #dc2626;
+}
+
+/* View button */
+.btn-view {
+  background-color: #3b82f6;
+  color: #ffffff;
+}
+
+.btn-view:hover {
+  background-color: #2563eb;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .styled-table {
+    min-width: 100%;
+    font-size: 14px;
+  }
+
+  .btn {
+    margin-top: 5px;
+    display: block;
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
