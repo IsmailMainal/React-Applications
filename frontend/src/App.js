@@ -5,6 +5,7 @@ import "./App.css";
 import Home from "./pages/Home";
 import AddEdit from "./pages/AddEdit";
 import Cart from "./pages/Cart";
+import Login from "./pages/Login";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/addquantity" element={<AddEdit />} />
           <Route path="/update/:id" element={<AddEdit />} />
           <Route path="/cart" element={<Cart/>} />
+          <Route path="/Login" element={<Login />} />
         </Routes>
       </div>
     </BrowserRouter>

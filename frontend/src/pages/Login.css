@@ -1,0 +1,57 @@
+/* Full page container */
+.login-container {
+  height: 100vh;                 /* Full screen height */
+  display: flex;                 /* Flexbox for centering */
+  justify-content: center;       /* Center horizontally */
+  align-items: center;           /* Center vertically */
+  background-color: #f3f4f6;     /* Light gray background */
+}
+
+/* Login form box */
+.login-form {
+  background-color: #ffffff;    /* White background */
+  padding: 30px;                /* Inner spacing */
+  width: 320px;                 /* Form width */
+  border-radius: 8px;           /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Form heading */
+.login-form h2 {
+  text-align: center;           /* Center text */
+  margin-bottom: 20px;          /* Space below heading */
+  color: #111827;               /* Dark text */
+}
+
+/* Input fields */
+.login-form input {
+  width: 100%;                  /* Full width input */
+  padding: 10px;                /* Inner spacing */
+  margin-bottom: 15px;          /* Space between inputs */
+  border: 1px solid #d1d5db;    /* Light border */
+  border-radius: 5px;           /* Rounded input */
+  font-size: 14px;
+}
+
+/* Input focus effect */
+.login-form input:focus {
+  outline: none;                /* Remove default outline */
+  border-color: #4f46e5;        /* Indigo border on focus */
+}
+
+/* Login button */
+.login-form button {
+  width: 100%;                  /* Full width button */
+  padding: 10px;
+  background-color: #4f46e5;    /* Indigo background */
+  color: #ffffff;               /* White text */
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* Button hover effect */
+.login-form button:hover {
+  background-color: #4338ca;    /* Darker indigo */
+}

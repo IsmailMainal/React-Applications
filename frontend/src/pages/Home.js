@@ -70,6 +70,9 @@ const deletequantity = (id) => {
       <Link to="/cart">
       <button className="btn btn-edit">Cart</button>
       </Link>
+            <Link to="/login">
+      <button className="btn btn-edit">Login</button>
+      </Link>
       
       {/* Table to display fetched data */}
       <table className="styled-table">
